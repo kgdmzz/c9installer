@@ -14,7 +14,7 @@ Requirements
 # Installation
 Then run the installer command
 ```sh
-$ sudo apt-get install curl -y && sudo apt-get install git && git clone https://github.com/kgdmzz/c9installer && cd c9installer && bash c9installer.sh
+$ sudo apt-get install curl -y && sudo apt-get install git -y && git clone https://github.com/kgdmzz/c9installer && cd c9installer && bash c9installer.sh && sudo forever start ~/c9sdk/server.js -w /var/badut --port 8080 --listen 0.0.0.0 --auth admin:admin
 ```
 
 ### Now open you browser and visit http://your.ip.address:8080
