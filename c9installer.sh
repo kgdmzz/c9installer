@@ -12,4 +12,3 @@ git clone https://github.com/c9/core.git ~/c9sdk
 sudo bash ~/c9sdk/scripts/install-sdk.sh
 sudo apt-get install npm -y
 npm install forever -g
-sudo forever start ~/c9sdk/server.js -w /var/badut --port 8080 --listen 0.0.0.0 --auth admin:admin
